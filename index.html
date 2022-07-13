@@ -8,6 +8,7 @@
     <title>My Site</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -22,35 +23,39 @@
         <nav class="menu">
             <ul class="menu_list">
                 <li class="menu_list_item">
-                    <a class="menu_list_link" href="#footer_a">VK</a>
+                    <a class="menu_list_link" href="#main_a">Резюме</a>
                 </li>
                 <li class="menu_list_item">
-                    <a class="menu_list_link" href="#footer_a">Instagram</a>
-                </li>
-                <li class="menu_list_item">
-                    <a class="menu_list_link" href="#footer_a">Gmail</a>
-                </li>
-                <li class="menu_list_item">
-                    <a class="menu_list_link" href="#footer_a">GitHub</a>
-                </li>
-                <li class="menu_list_item">
-                    <a class="menu_list_link" href="#footer_a">Telegram</a>
-                </li>
-                <li class="menu_list_item">
-                    <a class="menu_list_link" href="#footer_a">Facebook</a>
+                    <a class="menu_list_link" href="#footer_a">Контакты</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main class="main">
-        <h2 class="main_title">Мои фото</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur amet a accusantium architecto
-            voluptatibus officia vel iusto totam pariatur eum, quasi blanditiis reprehenderit fugit, ad labore dolores
-            molestias error.</p>
+        <div class="main_header">
+            <h2 class="main_title"><a id=“main_a”>Резюме</a></h2>
+            <div class="button">Сгенерировать</div>
+        </div>
+        <div class="CV">
+            <img class="image"
+            src="https://sun9-65.userapi.com/impf/RPdkTsyAv3Cr6t2gAFNPYWBCw5bA5ETv47NS3w/LGkcS5hhcDw.jpg?size=960x1280&quality=95&sign=8ecd1a4f584f2c563c23f4c72ecb73a2&type=album">
+            <div class="advice">
+                <div class="aspect"><strong class="ind_aspect">Должность</strong><br>
+                    <span class="phrase_1">что-то на серьёзном</span></div><br><br><br>
+                <div class="aspect"><strong class="ind_aspect">Опыт работы</strong><br>
+                    <span class="phrase_2">что-то на серьёзном</span></div><br>
+                <div class="aspect"><strong class="ind_aspect">Образование</strong><br>
+                    <span class="phrase_3">что-то на серьёзном</span></div><br>
+                <div class="aspect"><strong class="ind_aspect">Навыки</strong><br>
+                    <span class="phrase_4">что-то на серьёзном</span></div>
+            </div>
+        </div>
     </main>
     <footer class="footer">
-        <h3><a id=“footer_a”></a>Контакты</h3>
+        <h3><a id=“footer_a”>Контакты</a></h3>
     </footer>
+    <script src="https://code.s3.yandex.net/web-code/smoothly.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
