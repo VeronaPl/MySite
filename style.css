@@ -131,12 +131,12 @@ body {
 }
 
 .menu_list_link {
-    padding: 24px 10px 20px;
+    padding: 24px 15px 20px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 19px;
     color: #909090;
-    margin: 0 6px;
+    margin: 0 10px;
     border-bottom: 4px solid transparent;
     transition: all .5s;
 }
@@ -147,19 +147,91 @@ body {
 }
 
 .main {
-    padding: 80px 0;
-    max-width: 1200px;
-    padding: 0 15px;
+    position: relative;
+    /*padding: 80px 0;*/
+    max-width: 100%;
+    min-height: 100%;
+    /*padding: 0 15px;
+    margin: 0 auto;*/
+
+    /*position: relative;
+    max-width: 540px;
+    min-height: 100%;*/
     margin: 0 auto;
+    box-sizing: border-box;
+    padding: 36px;
+}
+
+.main_header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    font-family: Georgia;
+    font-weight: bold;
+    color: #4E5665;
+    margin-bottom: 65px;
 }
 
 .main_title {
-    font-family: Georgia;
     font-size: 32px;
     line-height: 38px;
-    text-align: center;
     color: #4E5665;
-    margin-bottom: 22px;
+    margin: 0;
+    /*margin-bottom: 22px;*/
+}
+
+.button {
+    width: 170px;
+    height: 50px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    color: #65A08A;
+    border: 1px solid #65A08A;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px #74BEAC, 0 0 40px #80d7c9, 0 0 80px #80d7c9;
+    background-color: #74BEAC;
+    color: #fff;
+    transition-delay: 1s;
+    border: 1px solid #74BEAC;
+    /*opacity: 0.5; 65a08a 80d7c9 67d7a8*/
+}
+
+.CV {
+    font-family: Georgia;
+    color: #505050;
+    margin: 0 100px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.image {
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-right: 75px;
+}
+
+.advice {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 500px;
+    font-size: 16px;
+    line-height: 1.1;
+}
+
+.ind_aspect {
+    font-size: 18px;
 }
 
 .footer {
